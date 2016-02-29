@@ -4,7 +4,7 @@ var position = 0, quiz, quizStatus, question, choices, chA, chB, chC, chD, corre
 var questions = [
 		["Which building built in London in 1951, demonstrated great technical progress with the use of iron and glass?", "Eiffel Tower", "Crystal Palace", "Chrysler Building", "Madison Square Garden", "B"],
 		["Who was the founder of the Bauhaus school in Germany?", "Le Corbusier", "Frank Lloyd Wright", "Meis van der Rohe","Walter Gropius", "D"],
-		["Which influential book on modern architecture did Le Corbusier author", "Towards a new architecture", "Complexity and Contradiction in Architecture", "Steel and Stones", "The New Architecture and the Bauhaus", "A"],
+		["Which influential book on modern architecture did Le Corbusier author?", "Towards a new architecture", "Complexity and Contradiction in Architecture", "Steel and Stones", "The New Architecture and the Bauhaus", "A"],
 		["Which of the following was an 'International Style' architect?", "Robert Venturi", "I.M. Pei", "Meis van der Rohe", "H.H. Richarson", "C"]
 ];
 
@@ -20,7 +20,7 @@ function renderQuestion (){
  	correct = 0;
  	return false;
  }
- _("quizStatus").innerHTML = "Question " +(position+1) + "of " + questions.length;
+ _("quizStatus").innerHTML = "Question " +(position+1) + " of " + questions.length;
 question = questions [position] [0];
 chA = questions [position] [1];
 chB = questions [position] [2];
