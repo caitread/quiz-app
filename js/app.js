@@ -20,7 +20,7 @@ function renderQuestion (){
  	correct = 0;
  	return false;
  }
- _("quizStatus").innerHTML = "Question" +(position+1) + "of" + questions.length;
+ _("quizStatus").innerHTML = "Question " +(position+1) + "of " + questions.length;
 question = questions [position] [0];
 chA = questions [position] [1];
 chB = questions [position] [2];
